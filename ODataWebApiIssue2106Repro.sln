@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ODataWebApiIssue2106Repro", "src\ODataWebApiIssue2106Repro\ODataWebApiIssue2106Repro.csproj", "{BACAD8AC-7F7C-4A0E-92C1-03119DF2532D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ODataWebApiIssue2106Repro.Ef6", "src\ODataWebApiIssue2106Repro.Ef6\ODataWebApiIssue2106Repro.Ef6.csproj", "{DD8E5627-4A5C-4B4A-93A3-631A49BC4D72}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ODataWebApiIssue2106Repro.Shared", "src\ODataWebApiIssue2106Repro.Shared\ODataWebApiIssue2106Repro.Shared.shproj", "{963AFE80-F3CB-4CC0-A4F0-5EECD9599FE0}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\ODataWebApiIssue2106Repro.Shared\ODataWebApiIssue2106Repro.Shared.projitems*{963afe80-f3cb-4cc0-a4f0-5eecd9599fe0}*SharedItemsImports = 13
+		src\ODataWebApiIssue2106Repro.Shared\ODataWebApiIssue2106Repro.Shared.projitems*{bacad8ac-7f7c-4a0e-92c1-03119df2532d}*SharedItemsImports = 5
+		src\ODataWebApiIssue2106Repro.Shared\ODataWebApiIssue2106Repro.Shared.projitems*{dd8e5627-4a5c-4b4a-93a3-631a49bc4d72}*SharedItemsImports = 5
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BACAD8AC-7F7C-4A0E-92C1-03119DF2532D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BACAD8AC-7F7C-4A0E-92C1-03119DF2532D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BACAD8AC-7F7C-4A0E-92C1-03119DF2532D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BACAD8AC-7F7C-4A0E-92C1-03119DF2532D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD8E5627-4A5C-4B4A-93A3-631A49BC4D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD8E5627-4A5C-4B4A-93A3-631A49BC4D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD8E5627-4A5C-4B4A-93A3-631A49BC4D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD8E5627-4A5C-4B4A-93A3-631A49BC4D72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27B9B171-90EA-49E8-985A-2B7CA7EB36BD}
+	EndGlobalSection
+EndGlobal
