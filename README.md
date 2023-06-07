@@ -13,3 +13,11 @@ Works even for expansion depth of 4
 ```
 http://localhost:13059/odata/Customers?$expand=Orders($expand=OrderItems($expand=Product($expand=Category)))
 ```
+
+### Fixed in EF Core 6.0
+```
+http://localhost:5104/odata/Orders?$expand=OrderItems($expand=Product)
+```
+Repro project: **ODataWebApiIssue2106Repro.Net6**
+
+Note: Run migration scripts from **ODataWebApiIssue2106Repro** to create the database (if necessary)
